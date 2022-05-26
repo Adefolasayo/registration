@@ -1,0 +1,54 @@
+body{
+    background:-webkit-linear-gradient(bottom, #0250c5 20%, #d43f8d 80% );
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+  }
+.container{
+    align-items: center;
+    position: relative;
+    width: 400px;
+    background: white;
+    padding: 60px 40px;
+}
+ .container input[type=text],
+ .container input[type=email],
+ .container input[type=date],
+ .container input[type=country]{
+    
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: 1px solid silver;
+    background: #f1f1f1;
+    overflow: hidden;
+}
+.container input[type=submit]{
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 400px;
+    font-style: oblique;
+   margin-top: 16px;
+    width: 90%;
+    height: 60px;
+    color: white;
+    background: linear-gradient(115deg, #0250c5 , #d43f8d );
+}
+.container label{
+    position: absolute;
+    left: 25px;
+}
